@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff0f0f0" >
+
+ <Button
+     android:id="@+id/logback"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:background="@drawable/back" />
+	
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50.0dp"
+        android:paddingBottom="10.0dp" >
+ 
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.0"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50.0dp" >
+                
+
+                <ImageView
+                    android:layout_width="57.0dp"
+                    android:layout_height="57.0dp"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@null"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/nut" />
+
+            </FrameLayout>
+			
+            <EditText
+                android:id="@+id/userText"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dp"
+                android:layout_marginBottom="20.0dp"
+                android:layout_marginLeft="12.0dp"
+                android:layout_marginRight="12.0dp"
+                android:layout_marginTop="20.0dp"
+                android:background="#ffffff"
+                android:drawablePadding="15.0dp"
+                android:ems="10"
+                android:hint="请输入用户名"
+                android:maxLength="16"
+                android:paddingBottom="2.0dp"
+                android:paddingLeft="15.0dp"
+                android:paddingRight="15.0dp"
+                android:paddingTop="2.0dp"
+                android:singleLine="true"
+                android:textColorHint="#ff999999"
+                android:textSize="16.0sp" />
+
+            <EditText
+                android:id="@+id/pswText"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dp"
+                android:layout_marginBottom="20.0dp"
+                android:layout_marginLeft="12.0dp"
+                android:layout_marginRight="12.0dp"
+                android:layout_marginTop="20.0dp"
+                android:background="#ffffff"
+                android:drawablePadding="15.0dp"
+                android:ems="10"
+                android:hint="请输入密码"
+                android:inputType="textPassword"
+                android:paddingBottom="2.0dp"
+                android:paddingLeft="15.0dp"
+                android:paddingRight="15.0dp"
+                android:paddingTop="2.0dp"
+                android:singleLine="true"
+                android:textColorHint="#ff999999"
+                android:textSize="16.0sp" />
+
+            <Button
+                android:id="@+id/sqllogin"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dp"
+                android:layout_marginLeft="12.0dp"
+                android:layout_marginRight="12.0dp"
+                android:background="#3498db"
+                android:singleLine="true"
+                android:text="登录"
+                android:textColor="#ffffffff"
+                android:textSize="18.0sp" />
+
+
+        </LinearLayout>
+         <TextView
+                android:id="@+id/info"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16.0sp" />
+
+    </LinearLayout>
+ 
+</RelativeLayout>

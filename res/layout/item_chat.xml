@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  	 android:paddingRight="30dp" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:id="@+id/left_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:background="@drawable/p_left">
+
+     <TextView
+        android:id="@+id/left_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity = "center"
+        android:maxWidth="244dp"
+        android:minWidth="66dp"
+        android:layout_margin ="10dp"/>
+
+         
+     <TextView
+    	android:id="@+id/sms_time1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:textSize="10sp" 
+        android:layout_below="@id/left_layout"
+        android:layout_alignLeft="@id/left_layout" />
+    </LinearLayout>
+     
+<LinearLayout
+    android:id="@+id/right_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:background="@drawable/p_right">
+     <TextView
+        android:id="@+id/right_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity = "center"
+        android:maxWidth="244dp"
+        android:minWidth="66dp"
+        android:layout_margin ="10dp"/>        
+
+   <TextView
+            android:id="@+id/sms_time2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:textSize="10sp"
+            android:layout_below="@id/right_layout"
+            android:layout_alignRight="@id/right_layout"  />  
+                 </LinearLayout>
+</LinearLayout>

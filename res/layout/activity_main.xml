@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.wxq.userlog.MainActivity" >
+    <Button
+        android:id="@+id/mainlogin"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dp"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="96dp"
+        android:background="#3498db"
+        android:singleLine="true"
+        android:text="登录"
+        android:textColor="#ffffffff"
+        android:textSize="18.0sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="103dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="30dp"
+        android:text="Quick Talk"
+        android:textColor="#3798db"
+        android:textSize="40.0sp" />
+
+    <Button
+        android:id="@+id/mainregister"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dp"
+        android:layout_alignLeft="@+id/mainlogin"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="27dp"
+        android:background="#3498db"
+        android:singleLine="true"
+        android:text="注册"
+        android:textColor="#ffffffff"
+        android:textSize="18.0sp" />
+
+    <TextView
+        android:id="@+id/belongToMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="by:王戌琦"
+        android:textColor="#cccccc"
+        android:textSize="18sp" />
+
+</RelativeLayout>
